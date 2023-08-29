@@ -71,12 +71,12 @@ const Board = () => {
                     {x > 1 && streets.map(y => y.id === x && <div className="card" key={y.id}>
                         <div className="street-name" style={{backgroundColor: y.color}}>{y.name}</div>
                         <div className="card-label">
-                            <em>Price: {y.price}</em>
+                            <em>Price: {y.price}$</em>
                             {x === playerPosition && <div className={"spot " + figure}></div>}
                         </div>
                         {!y.bought && x === playerPosition ?
                             <button onClick={() => buyStreet(y.id)}>BUY</button> :
-                            !y.bought && <div className="fake-btn"></div>}
+                            !y.bought && <div className="fake-btn">BUY</div>}
                         {y.bought && <b className="text-dark">BOUGHT</b>}
                     </div>)
                     }

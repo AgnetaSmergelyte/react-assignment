@@ -20,7 +20,7 @@ const MyStreets = () => {
             {boughtStreets.map(x =>
                 <div key={x.id}>
                     <div className="street-name" style={{backgroundColor: x.color}}>{x.name}</div>
-                    <button onClick={() => sellStreet(x.id)}>Sell</button>
+                    <button onClick={() => sellStreet(x.id)}>SELL (+{x.price / 2}$)</button>
                 </div>)}
         </div>
     );

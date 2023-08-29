@@ -8,116 +8,116 @@ export const streetsSlice = createSlice({
         streets: [
             {
                 id: 2,
-                name: 'V.Krėvės pr.',
+                name: 'Partizanų g.',
                 color: '#e772cb',
-                price: 99,
+                price: 30,
                 bought: false
             },
             {
                 id: 3,
-                name: 'Savanorių pr.',
+                name: 'Draugystės g.',
                 color: '#c68fe1',
-                price: 83,
+                price: 40,
                 bought: false
             },
             {
                 id: 4,
                 name: 'Taikos pr',
                 color: '#9471ef',
-                price: 60,
+                price: 50,
                 bought: false
             },
             {
                 id: 5,
                 name: 'Pramonės pr.',
                 color: '#7c46ff',
-                price: 55,
+                price: 60,
                 bought: false
             },
             {
                 id: 6,
-                name: 'Draugystės g.',
+                name: 'Savanorių pr.',
                 color: '#5770e8',
-                price: 67,
+                price: 70,
                 bought: false
             },
             {
                 id: 7,
                 name: 'Šiaurės pr.',
                 color: '#5cbffd',
-                price: 70,
+                price: 80,
                 bought: false
             },
             {
                 id: 8,
                 name: 'Baltų pr.',
                 color: '#54ccc2',
-                price: 61,
+                price: 90,
                 bought: false
             },
             {
                 id: 9,
-                name: 'Vilniaus g.',
+                name: 'V.Krėvės pr.',
                 color: '#158f94',
                 price: 100,
                 bought: false
             },
             {
                 id: 10,
-                name: 'Laisvės al.',
+                name: 'Studentų g.',
                 color: '#05835c',
-                price: 150,
+                price: 110,
                 bought: false
             },            {
                 id: 11,
-                name: 'Radvilėnų pl.',
+                name: 'Kauko al.',
                 color: '#129612',
-                price: 75,
+                price: 120,
                 bought: false
             },
             {
                 id: 12,
                 name: 'Sporto g.',
                 color: '#8ede20',
-                price: 66,
+                price: 130,
                 bought: false
             },
             {
                 id: 13,
-                name: 'Kęstučio g.',
+                name: 'M. Jankaus g.',
                 color: '#e3e30f',
-                price: 70,
+                price: 140,
                 bought: false
             },            {
                 id: 14,
-                name: 'Gedimino pr.',
+                name: 'Radvilėnų pl.',
                 color: '#c2b521',
-                price: 76,
+                price: 150,
                 bought: false
             },            {
                 id: 15,
-                name: 'Studentų g.',
+                name: 'Gedimino pr.',
                 color: '#e79916',
-                price: 67,
+                price: 160,
                 bought: false
             },            {
                 id: 16,
-                name: 'M. Jankaus g.',
+                name: 'Kęstučio g.',
                 color: '#cb7010',
-                price: 45,
+                price: 170,
                 bought: false
             },            {
                 id: 17,
-                name: 'Kauko al.',
+                name: 'Vilniaus g.',
                 color: '#d34b10',
-                price: 53,
+                price: 180,
                 bought: false
             },
             {
                 id: 18,
-                name: 'Partizanų g.',
+                name: 'Laisvės al.',
                 color: '#f12da3',
-                price: 55,
+                price: 190,
                 bought: false
             },
         ],

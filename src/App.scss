@@ -35,8 +35,10 @@ h1 {
 .fake-btn {
   border: none;
   border-radius: 5px;
-  padding: 17px 30px;
+  padding: 5px 15px;;
   background-color: $color-main-light;
+  color: $color-main-medium;
+  opacity: 0.8;
 }
 
 .container {
@@ -84,7 +86,7 @@ h1 {
 }
 
 .spot {
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   width: 40px;
   height: 40px;
@@ -147,6 +149,8 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 5px;
+  padding: 3px;
+  color: $color-main-darker;
 }
 
 .card-label {
@@ -163,8 +167,8 @@ h1 {
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 360px;
-  left: 340px;
+  top: 43%;
+  left: 35%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -181,8 +185,8 @@ h1 {
 
 .btn-roll {
   position: absolute;
-  top: 380px;
-  right: 340px;
+  top: 47%;
+  left: 53%;
   background-color: $color-main-dark;
   border-radius: 10px;
   padding: 10px 20px;
@@ -201,25 +205,39 @@ h1 {
   font-weight: bold;
   position: absolute;
   top: 220px;
-  left: 320px;
+  left: 32%;
 }
 
 .street-list {
-  min-width: 170px;
+  min-width: 200px;
   background-color: $color-main-medium;
   border-radius: 5px;
+  padding: 5px;
 
   & > div {
     background-color: $color-main-lighter;
-    padding: 7px;
+    padding: 3px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    margin: 5px;
+    margin: 4px;
   }
 
   button {
     border: solid 1px $color-main-darker;
+  }
+}
+
+@media (max-width: 950px) {
+  .board {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+  }
+  .error-msg-big {
+    font-size: 1.5rem;
   }
 }
